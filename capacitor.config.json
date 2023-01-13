@@ -1,6 +1,17 @@
 {
 	"appId": "io.ionic.starter",
-	"appName": "sur-sangeet",
+	"appName": "sur-taal",
 	"webDir": "www",
-	"bundledWebRuntime": false
+	"bundledWebRuntime": false,
+	"Splashscreen": {
+		"launchAutoHide": true,
+		"launchShowDuration": 0
+	},
+	"cordova": {
+		"prefrences": {
+			"LottieFullScreen": true,
+			"LottieHideAfterAnimation": true,
+			"LottieAnimationLocation": "public/assets/splash.json"
+		}
+	}
 }
